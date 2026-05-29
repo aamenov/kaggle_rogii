@@ -1,0 +1,61 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Kaggle/raw competition data
+train/
+test/
+sample_submission.csv
+
+# Generated ML artifacts
+models/
+submissions/
+*.joblib
+*.pkl
+*.pickle
+*.model
+*.cbm
+*.lgb
+*.onnx
+*.pt
+*.pth
+*.h5
+
+# Generated predictions and reports
+submission.csv
+*.submission.csv
+oof*.csv
+pred*.csv
+*.parquet
+*.feather
+
+# Large local files and exports
+*.pptx
+*.zip
+*.7z
+*.tar
+*.gz
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
